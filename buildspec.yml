@@ -1,0 +1,5 @@
+version: 0.1
+phases:
+  build:
+    commands:
+      - mvn verify sonar:sonar -Dsonar.projectKey=devsecaws -Dsonar.organization=devsecaws -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=ceb752a60f3647064483b17d84c43bc39ae3caa3 
